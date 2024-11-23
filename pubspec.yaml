@@ -1,0 +1,33 @@
+name: flappy_dash_game
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  bloc: ^8.1.4
+  equatable: ^2.0.7
+  flame: ^1.21.0
+  flame_audio: ^2.10.5
+  flame_bloc: ^1.12.3
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.1
+  flutter_bloc: ^8.1.6
+  flutter_soloud: ^2.1.0
+  get_it: ^8.0.2
+  meta: ^1.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/background/
+    - assets/audio/
